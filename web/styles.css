@@ -1,0 +1,44 @@
+h1
+{
+    font-family: Roboto;
+    color: black;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 150px;
+    line-height: 125px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center
+}
+body
+{
+   -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.gameBoard-Blue
+{
+    background-color: SteelBlue;
+}
+.gameBoard-Red
+{
+    background-color: FireBrick;
+}
+
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+}

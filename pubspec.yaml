@@ -1,0 +1,9 @@
+name: main
+version: 0.0.1
+description: Dots and Boxes
+dependencies:
+  browser: any
+  stagexl: any
+  js: any
+
+ 
